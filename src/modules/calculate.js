@@ -21,7 +21,7 @@ function calculate(a, b, operator) {
 			c = divide(a, b);
 			break;
 		default:
-			c = 0;
+			c = 'Kies een optie om te berekenen.';
 	}
 	return c;
 }
